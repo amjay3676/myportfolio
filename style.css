@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.top-container {
+  height: 100vh;
+  background-image: url(../image/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.img-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #d6d2c4;
+  display: flex;
+  padding-left: 5rem;
+  justify-content: space-between;
+}
+
+.hero-title {
+  color: #495464;
+}
+
+.hero-title > h1 {
+  font-size: 5rem;
+}
+
+.navcontainer {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navlinks {
+  font-size: 2.5rem;
+  height: 100%;
+  padding-top: 1.5rem;
+}
+
+.navlinks > a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #495464;
+}
+
+.navlinks > a:hover {
+  color: #14274e;
+}
+
+.bodytext {
+  text-align: center;
+  font-size: 10rem;
+}
+
+.bodypara {
+  text-align: center;
+  font-size: 4rem;
+}
+.bodydiv {
+  position: absolute;
+  bottom: 25rem;
+  left: 80rem;
+}
+.prof {
+  text-align: center;
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+  background-size: cover;
+  border: white;
+  border-width: 1rem;
+}
+.profile-container {
+  position: absolute;
+  margin-left: 90rem;
+  margin-top: 10rem;
+}
