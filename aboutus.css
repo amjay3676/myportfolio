@@ -12,7 +12,7 @@ html {
 
 .top-container {
   height: 100vh;
-  background-image: url(../image/aboutBG.jpeg);
+  background-image: url(aboutBG.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -84,7 +84,7 @@ html {
   text-align: center;
   position: absolute;
   margin-top: 12rem;
-  background-image: url(../image/aboutBG.jpeg);
+  background-image: url(aboutBG.jpeg);
   border-radius: 5rem;
 }
 .bio {
